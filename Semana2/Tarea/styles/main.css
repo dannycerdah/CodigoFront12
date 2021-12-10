@@ -1,0 +1,132 @@
+
+.logo{
+    font-size:32px ;
+}
+header {
+    background: #00AF1C;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: arial;
+  }
+
+  body{
+    font-family: arial;    
+  }
+  main{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 10px; 
+  }       
+  .titulo1{
+      color: #3B06D2;
+      font-size: 24px;
+  }
+
+  .titulo2{
+    color:  #D206B2;
+    font-size: 24px;
+}
+
+.titulo3{
+    color:  #AAD206;
+    font-size: 24px;     
+}
+.tituloContacto{
+    color:  #06D2C6;
+    font-size: 24px;     
+}
+
+  header ul {
+    display: flex;
+  }
+
+  header li {
+    margin-left: 30px;
+    
+  }
+
+  a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .fotos{
+    display: flex;
+    justify-content: space-between;
+    
+ 
+  }
+  section{
+    margin-top: 30px;  
+    margin-bottom: 10px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+ 
+    box-sizing: border-box;
+  }
+
+  textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  input[type=submit] {        
+    font-size: 22px;   
+    color: #22A900;
+    background-color: #FFFFFF;
+    /* border-color: #22A900; */
+    border: 1px solid #22A900; 
+    padding: 20px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.lista .item {
+
+    margin-top:20px;
+  }
+  
+  .lista ol li:nth-child(1) {
+    color: red;
+  }
+  
+  .lista ol li:nth-child(2) {
+    color: blue;
+  }
+  
+  .lista ol li:nth-child(3) {
+    color: yellow;
+  }
+  
+  .lista ol li:nth-child(4) {
+    color: cyan;
+  }
+  
+/*FOOTER*/
+.footer {
+    background:#00AF1C;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+

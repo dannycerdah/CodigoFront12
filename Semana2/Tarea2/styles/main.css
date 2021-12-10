@@ -1,0 +1,88 @@
+.logo{
+  font-size: 52px ;
+  font-family: fantasy;
+  
+}
+
+header {
+    background: #9ECEFA;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: arial;
+  }
+
+header ul {
+    display: flex;
+  }
+
+header li {
+    margin-left: 30px;
+    font-size: 24px;
+    
+  }
+
+  main{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .titulo1{
+    color: #87119A;
+    font-size: 28px;
+    font-weight: bold;
+    border-left: #87119A 5px solid;
+    padding-left: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 10px; 
+    margin-bottom: 20px;
+  }   
+  .fotos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+  }
+
+  .fotosDos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  
+  }
+
+  img{
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .fotosCuatro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  }
+  .fotosCuatroHijos{
+    width: 282px;
+    height: 251px;
+  }
+
+  .negrita{
+    font-weight: bold;
+  }
+
+  .footer {
+    background:#9ECEFA;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   
+    font-size: 24px;
+    font-weight: bold;
+  }

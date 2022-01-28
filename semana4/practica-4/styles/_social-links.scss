@@ -1,0 +1,26 @@
+/*----------------------------------------------------------------*/
+//SOCIAL LINKS
+/*----------------------------------------------------------------*/
+.social-links {
+    ul {
+      display: flex;
+      align-items: center;
+    }
+  
+    li {
+      margin-right: 10px;
+  
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  
+    a {
+      transition: all 0.5s ease;
+      display: block;
+  
+      &:hover {
+        transform: translateY(-4px);
+      }
+    }
+  }

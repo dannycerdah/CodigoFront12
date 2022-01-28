@@ -1,0 +1,125 @@
+/*----------------------------------------------------------------*/
+//BLOG
+/*----------------------------------------------------------------*/
+.blog {
+    img {
+      border: 4px solid $color-secondary;
+    }
+  
+    &-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(306px, 1fr));
+      grid-gap: 20px;
+    }
+  
+    &-item {
+      cursor: pointer;
+  
+      h2 {
+        padding: 6px 0 6px 6px;
+        border-left: 4px solid #c4c4c4;
+      }
+  
+      p {
+        font-size: 1.1rem;
+        line-height: 2rem;
+        font-weight: bold;
+      }
+  
+      a {
+        text-decoration: underline;
+        color: $color-complementary;
+      }
+  
+      &:first-child {
+        grid-row-end: span 2;
+      }
+  
+      &:hover {
+        img {
+          border-radius: 8px;
+          border-color: $color-complementary;
+        }
+  
+        h2 {
+          border-color: $color-complementary;
+        }
+      }
+  
+      &.format-one {
+        img {
+          margin-bottom: 20px;
+        }
+  
+        h2 {
+          font-size: 2.8rem;
+          margin-bottom: 25px;
+        }
+      }
+  
+      &.format-two {
+        display: flex;
+  
+        h2 {
+          margin-bottom: 14px;
+        }
+  
+        .blog-item-text {
+          padding-right: 10px;
+        }
+      }
+  
+      &.format-three {
+        h2 {
+          margin-bottom: 4px;
+        }
+  
+        img {
+          margin-top: 10px;
+        }
+      }
+  
+      &.format-four {
+        display: flex;
+  
+        h2 {
+          margin-bottom: 14px;
+        }
+  
+        .blog-item-text {
+          padding-left: 10px;
+        }
+      }
+  
+      &.format-newsletter {
+        p {
+          font-size: 1.8rem;
+          line-height: 2.7rem;
+          margin-bottom: 20px;
+          font-weight: bold;
+        }
+  
+        form {
+          display: flex;
+        }
+  
+        button {
+          border-top-right-radius: 8px;
+          border-bottom-right-radius: 8px;
+          background: $color-complementary;
+          color: #fff;
+          padding: 10px;
+          border: none;
+          cursor: pointer;
+        }
+  
+        input {
+          border: 1px solid #c0c0c0;
+          padding: 10px;
+          border-top-left-radius: 8px;
+          border-bottom-left-radius: 8px;
+        }
+      }
+    }
+  }
+  

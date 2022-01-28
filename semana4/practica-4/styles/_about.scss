@@ -1,0 +1,64 @@
+/*----------------------------------------------------------------*/
+//ABOUT
+/*----------------------------------------------------------------*/
+.about {
+    display: flex;
+  
+    h3 {
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+    }
+  
+    h1 {
+      font-size: 3.2rem;
+      margin-bottom: 2.2rem;
+    }
+  
+    h2 {
+      font-size: 4rem;
+      margin-bottom: 2.2rem;
+      color: $color-primary;
+    }
+  
+    p {
+      font-size: 1.3rem;
+      line-height: 2.4rem;
+      border-left: 4px solid $color-primary;
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+  
+    &-left {
+      padding-right: 40px;
+    }
+  
+    &-links {
+      display: flex;
+      align-items: center;
+    }
+  
+    &-right {
+      display: flex;
+      align-items: flex-start;
+    }
+  
+    &-download {
+      background: $color-complementary;
+      border: none;
+      padding: 15px 40px;
+      color: #fff;
+      margin-right: 34px;
+      cursor: pointer;
+      transition: all 0.5s ease;
+  
+      &:hover {
+        border-radius: 8px;
+      }
+    }
+  
+    &-socialmedia {
+      padding-top: 40px;
+      padding-left: 20px;
+    }
+  }
+  

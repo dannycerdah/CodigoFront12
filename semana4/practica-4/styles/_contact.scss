@@ -1,0 +1,51 @@
+/*----------------------------------------------------------------*/
+//CONTACT
+/*----------------------------------------------------------------*/
+.contact {
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 15px 10px;
+      border-radius: 8px;
+      border: 1px solid #cdcdcd;
+  
+      &:hover {
+        border-color: $color-primary;
+      }
+  
+      &:focus {
+        outline: none;
+        border-color: $color-complementary;
+      }
+    }
+  
+    &-form {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(308px, 1fr));
+      grid-gap: 20px;
+      max-width: 636px;
+      margin: auto;
+  
+      div {
+        &:nth-child(5),
+        &:nth-child(6) {
+          grid-column-end: span 2;
+        }
+  
+        &:nth-child(6) {
+          text-align: center;
+        }
+      }
+  
+      button {
+        background: $color-complementary;
+        color: #fff;
+        padding: 15px 40px;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-top: 20px;
+      }
+    }
+  }

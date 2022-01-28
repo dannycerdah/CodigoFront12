@@ -1,0 +1,60 @@
+/*----------------------------------------------------------------*/
+//SERVICES
+/*----------------------------------------------------------------*/
+.services {
+    &-blocks {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(308px, 1fr));
+      grid-gap: 20px;
+      max-width: 636px;
+      margin: auto;
+    }
+  
+    .service-item {
+      background: $color-primary;
+      height: 218px;
+      border: 5px solid $color-secondary;
+      overflow: hidden;
+      position: relative;
+      transition: all 0.5s ease;
+  
+      img,
+      svg,
+      p {
+        position: absolute;
+        transition: all 0.5s ease;
+      }
+  
+      img,
+      svg {
+        top: 24px;
+        left: 24px;
+      }
+  
+      p {
+        bottom: 24px;
+        right: 0px;
+        background: $color-secondary;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        font-weight: bold;
+        font-size: 2.4rem;
+        padding: 15px 20px 15px 60px;
+      }
+  
+      &:hover {
+        border-color: $color-complementary;
+        border-radius: 8px;
+  
+        P {
+          background: $color-complementary;
+          color: #fff;
+        }
+  
+        img,
+        svg path {
+          fill: $color-complementary;
+        }
+      }
+    }
+  }
